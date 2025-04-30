@@ -48,6 +48,20 @@ Create a `.env.local` file in the root directory:
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+
+NEXT_PUBLIC_PRODUCTNAME=Nextjs 15 Boilerplate
+NEXT_PUBLIC_SSO_PROVIDERS=github,google,twitter
+
+NEXT_PUBLIC_GOOGLE_TAG=G-GOOGLETAG
+NEXT_PUBLIC_THEME=theme-sass
+
+
+NEXT_PUBLIC_TIERS_NAMES=Basic,Growth,Max
+NEXT_PUBLIC_TIERS_PRICES=99,199,299
+NEXT_PUBLIC_TIERS_DESCRIPTIONS=Perfect for getting started,Best for growing teams,For enterprise-grade needs
+NEXT_PUBLIC_TIERS_FEATURES=14 day free trial|30 PDF files,14 day free trial|1000 PDF files,14 day free trial|Unlimited PDF files
+NEXT_PUBLIC_POPULAR_TIER=Growth
+NEXT_PUBLIC_COMMON_FEATURES=SSL security,unlimited updates,premium support
 ```
 
 > 🔒 Keep `SUPABASE_SERVICE_ROLE_KEY` secure. It grants admin access to your Supabase project.
