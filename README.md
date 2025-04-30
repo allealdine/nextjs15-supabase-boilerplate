@@ -1,7 +1,3 @@
-Here's a professionally structured `README.md` tailored for your **Next.js 15 Supabase Boilerplate** project (`nextjs15-supabase-boilerplate`). This will help other developers understand, install, and contribute to your project easily.
-
----
-
 # 🚀 nextjs15-supabase-boilerplate
 
 > A production-ready Next.js 15 + Supabase boilerplate with authentication, typescript, Tailwind CSS, Radix UI, and more.
