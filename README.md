@@ -1,3 +1,114 @@
+Here's a professionally structured `README.md` tailored for your **Next.js 15 Supabase Boilerplate** project (`nextjs15-supabase-boilerplate`). This will help other developers understand, install, and contribute to your project easily.
+
+---
+
+# 🚀 nextjs15-supabase-boilerplate
+
+> A production-ready Next.js 15 + Supabase boilerplate with authentication, typescript, Tailwind CSS, Radix UI, and more.
+
+A starter template built with performance and developer experience in mind. Perfect for building full-stack apps using the latest features of Next.js 15 and Supabase.
+
+---
+
+## 📦 Features
+
+- ✅ **Next.js 15** with App Router
+- ✅ **Supabase Auth & Storage** integration
+- ✅ **TypeScript** out of the box
+- ✅ **Tailwind CSS** with `tailwindcss-animate`, `class-variance-authority`, and `clsx`
+- ✅ **Radix UI Components**: Dialogs, Alerts, Tabs, Toasts
+- ✅ Paddle Payments Integration (Client & Server SDK)
+- ✅ ESLint & TypeScript configured for React 19
+- ✅ Vercel Analytics included
+- ✅ Optimized for deployment on Vercel
+
+---
+
+## 🧰 Technologies Used
+
+- [Next.js 15](https://nextjs.org/)
+- [React 19](https://react.dev/)
+- [Supabase](https://supabase.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Paddle.js + Node SDK](https://developer.paddle.com/)
+- [Lucide Icons](https://lucide.dev/)
+
+---
+
+## 🛠 Installation
+
+Make sure you have [`pnpm`](https://pnpm.io/) installed first.
+
+```bash
+pnpm install
+```
+
+### 📝 Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+```
+
+> 🔒 Keep `SUPABASE_SERVICE_ROLE_KEY` secure. It grants admin access to your Supabase project.
+
+---
+
+## ▶️ Running the Development Server
+
+```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+---
+
+## 🧪 Linting & Type Checking
+
+```bash
+pnpm lint
+```
+
+---
+
+## 🏗 Building the Project
+
+```bash
+pnpm build
+```
+
+After building, start the production server:
+
+```bash
+pnpm start
+```
+
+---
+
+## 📁 Project Structure Overview
+
+```
+app/
+components/          # Reusable UI components using Radix UI
+lib/                 # Supabase client setup and helpers
+styles/              # Global styles and Tailwind config
+types/               # Shared types
+utils/               # Utility functions
+.env.local           # Environment variables
+next.config.mjs      # Next.js configuration
+tailwind.config.ts   # TailwindCSS configuration
+tsconfig.json        # TypeScript configuration
+```
+
+---
+
+## Database Setup
+
 ### Auth
 
 ```
@@ -138,4 +249,20 @@ to authenticated
 using ((auth.is_user_authenticated() AND (owner = auth.uid())));
 ```
 
-c77ef3afecb6634434ed6b254be1102a99eb1807
+---
+
+## ✨ Why Use This Boilerplate?
+
+This boilerplate is designed to reduce setup time and provide a solid foundation for building modern web applications with Supabase and Next.js 15. Whether you're building a SaaS, dashboard, or personal portfolio, this gives you everything you need to get started quickly.
+
+---
+
+## 💬 Support & Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a PR if you'd like to improve or extend this boilerplate.
+
+---
+
+## 📄 License
+
+MIT License
